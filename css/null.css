@@ -1,15 +1,37 @@
-/* @font-face {
-    font-family: Roboto;
-    src: url(../fonts/Regular/Roboto-Regular.ttf);
-    font-weight: 400;
+@font-face {
+    font-family: "SF Pro Text";
+    src: url(../fonts/SF-Pro-Text/SFProText-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url(../fonts/SF-Pro-Text/SFProText-Semibold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Display";
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Semibold.otf);
+    font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    font-family: Roboto;
-    src: url(../fonts/Regular/Roboto-Medium.ttf);
+    font-family: "SF Pro Display";
+    src: url(../fonts/SF-Pro-Display/SF-Pro-Display-Bold.otf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url(../fonts/SF-Pro-Text/SFProText-Medium.ttf);
     font-weight: 500;
     font-style: normal;
-} */
+}
+
 
 
 /*Обнуление*/
@@ -40,6 +62,7 @@ footer, header, aside {
 html, body {
     color: #ffffff;
     min-height: 100%;
+    background: #F6F6F7;
     width: 100%;
     font-size: 100%;
     line-height: 1;
