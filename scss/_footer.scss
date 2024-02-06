@@ -72,6 +72,7 @@ footer {
 .footer__bottom-adress {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 12px;
 }
 
@@ -94,6 +95,7 @@ footer {
 .footer__bottom-schedule {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 8px;
     & p {
         color: var(--Text-Default, #202223);
