@@ -759,7 +759,6 @@
   color: var(--Icon-Highlight, #00a0ac);
   font-feature-settings: "clig" off, "liga" off;
   font-family: "SF Pro Text";
-  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
@@ -1749,6 +1748,7 @@ footer {
 .footer__bottom-adress {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 12px;
 }
 
@@ -1770,6 +1770,7 @@ footer {
 .footer__bottom-schedule {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
 }
 .footer__bottom-schedule p {
