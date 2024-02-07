@@ -1330,6 +1330,10 @@
   gap: 6px;
 }
 
+.articles__arrow {
+  cursor: pointer;
+}
+
 @media (min-width: 992px) {
   .articles {
     padding: 56px 0;
