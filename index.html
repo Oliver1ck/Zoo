@@ -8,8 +8,35 @@
         <title>Главная</title>
     </head>
     <body>
-        <div class="modals">
-            <form class=""></form>
+        <div class="modal__wrap">
+            <form class="callback">
+                <h2 class="callback__title">
+                    Перезвоним вам в течение 15 минут
+                </h2>
+                <div class="callback__field">
+                    <div class="callback__field-item">
+                        <h3 class="callback__field-item-title">
+                            Имя
+                        </h3>
+                        <input type="text" name="name" placeholder="Иванов Иван Иванович">
+                    </div>
+                    <div class="callback__field-item">
+                        <h3 class="callback__field-item-title">
+                            Номер телефона
+                        </h3>
+                        <input type="tel" name="phone" placeholder="+375 ___-__-__">
+                    </div>
+                </div>
+                <button class="button">
+                    Отправить
+                </button>
+                <p class="callback__personal-data">
+                    Нажимая на кнопку вы даёте согласие на обработку <a href="#">персональных данных</a>
+                </p>
+                <div class="cross">
+                    
+                </div>
+            </form>
         </div>
         <div class="wrapper">
             <header>
@@ -1696,5 +1723,6 @@
         <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script defer src="./js/slick.min.js"></script>
         <script defer src="./js/slider.js"></script>
+        <script src="./js/modals.js"></script>
     </body>
 </html>
