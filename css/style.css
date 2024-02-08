@@ -495,7 +495,7 @@
 
 .filter__item {
   flex: 0 0 140px;
-  height: 85px;
+  height: 56px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -533,6 +533,7 @@
   .filter__item {
     flex: 0 0 215px;
     gap: 16px;
+    height: 85px;
   }
   .filter__item-text {
     font-size: 16px;
