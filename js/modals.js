@@ -3,6 +3,14 @@ const modal = document.querySelector('.modal__wrap')
 const callbackForm = document.querySelector('.callback')
 const cross = document.querySelectorAll('.cross')
 
+modal.addEventListener('click', (e) => {
+    if(e.target !== e.currentTarget) return
+    else {
+        e.target.children[0].classList.remove('modal__active')
+        e.target.classList.remove('modal__active')
+    }
+})
+
 callback.addEventListener('click', () => {
     document.body.style.overflow = 'hidden'
     modal.classList.add('modal__active')
