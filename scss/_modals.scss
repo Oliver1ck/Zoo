@@ -1,11 +1,12 @@
 @import '_callback.scss';
+@import '_buyOneClick.scss';
 
 .modal__wrap {
     display: none;
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100svh;
     z-index: 3;
