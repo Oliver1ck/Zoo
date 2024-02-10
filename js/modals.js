@@ -1,6 +1,9 @@
 const callback = document.querySelector('.header__up-button')
 const modal = document.querySelector('.modal__wrap')
 const callbackForm = document.querySelector('.callback')
+const callbackBtn = document.querySelector('.callback > button');
+const accessCallback = document.querySelector('.access__callback')
+const accessCallbackButton = document.querySelector('.access__callback > button')
 const cross = document.querySelectorAll('.cross')
 const buyOneClick = document.querySelector('.buy__one-click')
 const sliderButton = document.querySelectorAll('.slider__item-btn')
@@ -61,4 +64,16 @@ weightButton.addEventListener('click', () => {
     }else{
         youWeight.style.display = 'none'
     }
+})
+
+callbackBtn.addEventListener('click', () => {
+    callbackForm.classList.remove('modal__active');
+    accessCallback.classList.add('modal__active');
+})
+
+accessCallbackButton.addEventListener('click', () => {
+    document.body.style.overflow = 'auto'
+    modal.classList.remove('modal__active')
+    accessCallback.classList.remove('modal__active')
+
 })

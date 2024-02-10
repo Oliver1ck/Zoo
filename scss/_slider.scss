@@ -1,5 +1,3 @@
-
-
 .slider__title {
     color: var(--Text-Default, #202223);
     font-feature-settings: "clig" off, "liga" off;
@@ -13,7 +11,6 @@
 .slider__actions {
     display: none;
 }
-
 
 .slick-list {
     overflow: hidden;
@@ -59,6 +56,10 @@
     font-style: normal;
     font-weight: 600;
     line-height: 130%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 
     &:hover {
         color: var(--Icon-Highlight, #00a0ac);
@@ -167,7 +168,6 @@
 }
 
 @media (min-width: 992px) {
-
     .slider__title {
         font-size: 28px;
     }
