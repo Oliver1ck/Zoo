@@ -1280,6 +1280,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 .articles__slider-item-text-wrap p {
   color: var(--Text-Default, #202223);
@@ -1371,7 +1375,7 @@
     border-radius: 50%;
   }
   .articles__arrow:hover {
-    background: var(--Icon-Highlight, #00A0AC);
+    background: var(--Icon-Highlight, #00a0ac);
   }
   .articles__arrow:hover path {
     fill: #fff;
