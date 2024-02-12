@@ -18,7 +18,6 @@
 
 .header__up-active {
     transition: 0.5s ease;
-    // right: 0;
     left: 0;
     top: 0;
 }
@@ -172,11 +171,10 @@
 
 .header__up-schedule {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
-    gap: 8px;
-
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
     & p {
         color: var(--Text-Default, #202223);
         font-feature-settings: "clig" off, "liga" off;
