@@ -950,10 +950,16 @@
   position: relative;
 }
 .popular__goods-promotion-item:first-child {
-  background: url(../img/promotionDog.png) no-repeat 100% 100%/116px 116px, var(--Surface-Warning-Default, #ffd79d);
+  background: var(--Surface-Warning-Default, #ffd79d);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 116px 116px;
 }
 .popular__goods-promotion-item:last-child {
-  background: url(../img/promotionCat.png) no-repeat 100% 100%/116px 116px, #aee9d1;
+  background: #aee9d1;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 116px 116px;
 }
 
 .popular__goods-promotion-item-info {

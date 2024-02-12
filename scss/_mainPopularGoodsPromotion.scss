@@ -16,11 +16,17 @@
     position: relative;
 
     &:first-child {
-        background: url(../img/promotionDog.png) no-repeat 100% 100%/116px 116px, var(--Surface-Warning-Default, #ffd79d);
+        background: var(--Surface-Warning-Default, #ffd79d);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        background-size: 116px 116px;
     }
 
     &:last-child {
-        background:url(../img/promotionCat.png) no-repeat 100% 100%/116px 116px, #aee9d1;
+        background: #aee9d1;
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        background-size: 116px 116px;
     }
 }
 
